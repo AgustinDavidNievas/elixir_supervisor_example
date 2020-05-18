@@ -5,8 +5,7 @@ defmodule DynamicStack do
     GenServer.start_link(__MODULE__, state, name: name)
   end
 
-  def child_spec({id, state}) do
-    name = Module.concat(__MODULE__, id)
+  def child_spec({name, state}) do
     %{id: name, start: {__MODULE__, :start_link, [name, state]}, type: :worker}
   end
 
