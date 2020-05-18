@@ -1,6 +1,6 @@
 # SupEjemplo
 
-**Ejemplo de supervision estatica y dinamica de procesos en Elixir usando los modulos Supervisor y GenServer**
+**Ejemplo de supervision estatica y dinamica de procesos en Elixir usando los modulos Supervisor, DynamicSupervisor y GenServer**
 
 ## Installation
 
