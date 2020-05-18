@@ -5,7 +5,8 @@ defmodule SupEjemplo.Application do
     import Supervisor.Spec, warn: false
 
     children = [
-      StackSupervisor
+      StackSupervisor,
+      %{id: StackDynamicSupervisor, start: {StackDynamicSupervisor, :start_link, [[]]} },
     ]
 
     #El Iasc_sup_ej.Supervisor seria el supervisor de supervisores
