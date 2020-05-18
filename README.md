@@ -1,6 +1,6 @@
 # SupEjemplo
 
-**TODO: Add description**
+**Ejemplo de supervision estatica y dinamica de procesos en Elixir usando los modulos Supervisor y GenServer**
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/sup_ejemplo](https://hexdocs.pm/sup_ejemplo).
-
